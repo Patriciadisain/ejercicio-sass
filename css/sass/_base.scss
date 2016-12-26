@@ -1,0 +1,29 @@
+// .hola{
+// 	background-color: $color2;
+// 	width: $medidas;
+// 	h1{
+// 		color: $color2;
+// 	}
+// 	p{
+// 		color: $color;
+// 	}
+// }
+@font-face {
+font-family: 'MerriweatherSans';
+font-style: normal;
+font-weight: normal;
+src: local('MerriweatherSans'), url('../fonts/MerriweatherSans-Regular.otf') format('Opentype');
+}
+
+body{
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size:$full;
+	font-family: $text;
+
+	.container{
+		background-color: $blanco;
+		padding: 0 2.5em;
+	}
+}

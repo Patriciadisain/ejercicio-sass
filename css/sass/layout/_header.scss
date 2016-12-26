@@ -1,0 +1,71 @@
+header{
+
+	font-family: $fuente;
+
+
+		h1{
+			font-family: Arial;
+			color: $text;
+			font-size: 3em;
+			font-weight: $gruesa;
+		}
+		h1 span{
+			color: $principal;
+			font-size: 1em;
+			font-weight: $gruesa;
+			padding: 0;
+		}
+		.search input{
+			width: 75%;
+			background-color: $claro;
+			margin-top: 2em;
+		}
+		.search a{
+			@include textos;
+			padding: 0.3em 0.6em;
+			font-size: 1.4em;
+			border-bottom: 0.2em solid $principal;
+		}
+
+		.slides img{
+			width: $full;
+			margin-top: 0.5em;
+		}
+		#tags, #tags-2{
+			@include textos;
+			position: relative;
+			top: 2.2em;
+			padding: 0.4em 1.3em;
+		}
+		.coments{
+			position: relative;
+			top:-6em;
+			background-color: $transp;
+			color: $blanco;
+			padding: 0.4em 1.3em;
+		}
+		.coments a{
+			@include links;
+		}
+		.coments p, .coments span{
+			color: $claro;
+			font-size: 1em;
+		}
+		#img-small{
+			width: $full;
+			margin-top: 0.4em;
+		}
+		.img-s-p{
+			width:100%;
+			position: relative;
+			top: -4em;
+		}
+		.span-s{
+			position: relative;
+			top: -6.5em;
+			background-color: $transp;
+			color: $blanco;
+			font-size: 14px;
+			padding: 0.5em 1em;
+		}
+}

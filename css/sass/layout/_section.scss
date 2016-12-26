@@ -1,0 +1,11 @@
+section{
+
+	font-family: 'MerriweatherSans';
+
+	h3{
+		@include titulos;
+		border-bottom: 2px solid $principal;
+    	padding-bottom: 1em;
+   	}
+
+}

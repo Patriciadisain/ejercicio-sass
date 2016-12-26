@@ -1,0 +1,36 @@
+// $color:red;
+// $color2:blue;
+// $color3:yellow;
+
+// $medidas:200px;
+// ==========
+
+// Medidas
+$full: 100%;
+$mid-width: 50%;
+
+// Colores
+$principal: #EA4748;
+$blanco: #FFFFFF;
+$claro: #CECECE;
+$transp: rgba(0,0,0,0.6);
+//fuentes
+$fuente: 'MerriweatherSans';
+$text: #696969;
+$gruesa: bolder;
+
+@mixin textos {
+	color: $blanco;
+	background-color: $principal;
+}
+@mixin links {
+	text-decoration: none;
+	color: $blanco;
+	font-weight: $gruesa;
+}
+@mixin titulos {
+	color: $text;
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	font-weight: $gruesa;	
+}
