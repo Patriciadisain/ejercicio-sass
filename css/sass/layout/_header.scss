@@ -16,15 +16,15 @@ header{
 			padding: 0;
 		}
 		.search input{
-			width: 75%;
+			width: 70%;
 			background-color: $claro;
 			margin-top: 2em;
 		}
 		.search a{
 			@include textos;
-			padding: 0.3em 0.6em;
+			padding: 0.35em 1em;
 			font-size: 1.4em;
-			border-bottom: 0.2em solid $principal;
+			border-bottom: 0.3em solid $principal;
 		}
 
 		.slides img{

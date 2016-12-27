@@ -2,10 +2,136 @@ section{
 
 	font-family: 'MerriweatherSans';
 
-	h3{
+	   h3{
 		@include titulos;
 		border-bottom: 2px solid $principal;
     	padding-bottom: 1em;
+      }
+      .line{
+      width: 10em;
+      background-color: $principal;
+      height: 0.5em;
+      margin-top: -1.8em;
+      }
+   	.imagenes{
+   		width: $full;
+         padding: 0.3em;
+         margin:0.3em;
+         text-align: center;
    	}
-
+   	.imagenes img{
+   		float:left;
+         padding:0.3em;
+         display:inline;
+      }
+   	.imagenes p{
+   		margin: 0;
+   		padding: 3px;
+         font-size:14px;
+   	}
+      .imagenes i{
+         color: $claro;
+         font-size: 12px;
+         margin-bottom:0.2em;
+      }
+      .imagenes i:hover{
+         color: #FEE408;
+      }
+      .imagenes p:nth-child(2){
+         color: $principal;
+         font-size:12px;
+      }
+      .vimeo iframe{
+         width: 100%;
+         margin-top: 1em;
+         margin-bottom: 1em;
+      }
+      .social a i{
+         color: $blanco;
+         width: 31%;
+         padding: 1em;
+         display: inline-block;
+         float: left;
+         margin-top: 1em;
+         margin-left: 0.1em;
+      }
+      .fa-facebook{
+         font-size: 2em;
+         background-color: #5989C4;
+         text-align: center;
+      }
+      .fa-twitter{
+         font-size: 2em;
+         background-color: #44B8E2;
+         text-align: center;
+      }
+      .fa-rss{
+         font-size: 2em;
+         background-color: #FEA635;
+         text-align: center;
+      }
+      .fllw{
+         background-color: $claro;
+         text-align:center;
+         display: inline;
+         float:left;
+         width: 31%;
+         padding: 0.1em;
+         margin-left: 0.2em;
+         margin-bottom: 2em;
+      }
+      .lf-style{
+      h4{
+         font-size: 1.5em;
+         color:$text;
+         font-weight: $gruesa;
+         border-bottom:6px solid $principal;
+         display: inline;
+      }
+      .line{
+         background-color: $principal;
+         height: 2px;
+         min-width: 100%;
+         display: block;
+         margin-top: 4px;
+         margin-bottom: 10px;
+      }
+      color:$claro;
+      img{
+         width: $full;
+      }
+      .p-title{
+         font-size: 1.2em;
+         color:$text;
+      }
+      .p-date{
+         color:$principal;
+         a{
+            text-decoration: none;
+            color:$principal;
+         }
+      }
+      .imagenes{
+         .p-date{
+            margin:0;
+         }
+         .p-subtitle{
+            margin:0;
+            margin-top:5px;
+         }
+      }
+      .recent{
+         margin-top:5px;
+         .titles{
+            font-size: 1.1em;
+            color:$text;
+            &:first-child{
+               border-bottom: 4px solid $principal;
+            }
+         }
+         .line{
+            margin:0;
+         }
+      }
+   }
 }

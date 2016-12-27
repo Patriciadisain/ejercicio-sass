@@ -1,0 +1,51 @@
+footer{
+	border-bottom:6px solid $principal;
+	h2{
+
+		font-size: 1.3em;
+		color:$text;
+		font-weight: bold;
+		border-bottom:4px solid $principal;
+		display: inline;
+	}
+	.line{
+		background-color: $principal;
+		height: 2px;
+		min-width: 100%;
+		display: block;
+	}
+	ul li{
+		padding-bottom: .7em;
+		a{
+			color: $text;
+			font-weight: bold;
+			font-size: 1.1em;
+		}
+	}
+	.img-flick{
+		padding-top: 10px;
+		img{
+			width: 30%;
+			margin: 3px;
+			padding:1%;
+			background-color: $text;
+		}
+	}
+	p{
+		color:$claro;
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	.copy{
+		background-color:$principal;
+		color:white;
+		padding-top:10px;
+		padding-bottom:10px;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	.row{
+		margin:0;
+	}
+	
+}
